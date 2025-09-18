@@ -1,0 +1,13 @@
+node_modules
+dist
+.env
+playwright-report
+playwright-storage
+test-results
+.DS_Store
+coverage
+.next/
+.env.local
+
+# Intellij
+.idea/

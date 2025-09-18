@@ -1,0 +1,5 @@
+:root { --bg: #F1EDE5; }
+html, body { height: 100%; }
+body { margin: 0; background: var(--bg); }
+/* A11y focus outline */
+:where(a, button, input, [role='button']):focus { outline: 3px solid #1976d2; outline-offset: 2px; }
